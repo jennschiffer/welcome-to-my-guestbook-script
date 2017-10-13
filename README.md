@@ -128,17 +128,17 @@ students should
 
       <label for="name">
         Name: 
-        <input id="name" type="text" placeholder="jenn" />
+        <input id="name" name="name" type="text" placeholder="jenn" />
       </label>
 
       <label for="twitter">
         Twitter: @
-        <input id="twitter" type="text" placeholder="TheRock" />
+        <input id="twitter" name="twitter" type="text" placeholder="TheRock" />
       </label>
 
       <label for="message">
         Message: 
-        <input id="message" type="text" placeholder="wowowow cool text!" />
+        <input id="message" name="message" type="text" placeholder="wowowow cool text!" />
       </label>
 
       <input id="submitToGuestbook" type="submit" value="Post to the Guestbook!" />
